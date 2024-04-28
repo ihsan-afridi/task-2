@@ -1,27 +1,87 @@
-body{
-    background-image: url(./pic/pexels-andrew-19799232.jpg);
-    background-size: cover;
-    background-position: center;
+body {
+    background-image: url('./pic/pexels-andrew-19799232.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0; 
+    padding: 0; 
+    
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    color: green;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-h1,p{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin:auto ;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #h1{
+    margin: auto;
     padding: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+  }
+   
+  #p1{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
     margin-top: 20px;
-    margin-bottom: 20px;
-}
+    color: rgb(37, 37, 194);
+  }
 
-button{
-    border-radius: 20px;
-    background-color: brown;
-    color: aliceblue
-}
+  .btns{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-content: center; 
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    display: flex; gap: 50px; 
 
-ul{
-    color: aqua;
+  }  
+
+  #btn1{
+    background-color: rgb(23, 78, 59);
+    color:rgb(152, 168, 183) ;
+    border-radius: 5px;
+    
+  }
+  #btn2{
+    background-color: rgb(29, 92, 71);
+    color: rgb(152, 168, 183);
+    border-radius: 5px;
+  }
+
+  #btn1:hover{
+    background-color: blueviolet;
+  }
+
+#btn2:hover{
+  background-color: blueviolet;
 }
