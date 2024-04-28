@@ -1,0 +1,27 @@
+body{
+    background-image: url(./pic/pexels-andrew-19799232.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1,p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin:auto ;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 20px;
+    background-color: brown;
+    color: aliceblue
+}
+
+ul{
+    color: aqua;
+}
